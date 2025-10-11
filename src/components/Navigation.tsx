@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Download } from "lucide-react";
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -27,6 +27,11 @@ const Navigation = () => {
     { label: "Education", id: "education" },
     { label: "Contact", id: "contact" }
   ];
+
+  const openResume = () => {
+    window.open("/Kesavamoorthy_Resume.pdf", "_blank");
+    setIsMobileMenuOpen(false);
+  };
 
   return (
     <nav 
@@ -57,6 +62,13 @@ const Navigation = () => {
                 {item.label}
               </button>
             ))}
+            <button
+              onClick={openResume}
+              className="text-sm font-medium text-primary hover:text-primary/80 transition-colors flex items-center gap-1"
+            >
+              <Download className="w-4 h-4" />
+              Resume
+            </button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -83,6 +95,13 @@ const Navigation = () => {
                   {item.label}
                 </button>
               ))}
+              <button
+                onClick={openResume}
+                className="text-sm font-medium text-primary hover:text-primary/80 transition-colors text-left px-4 py-2 hover:bg-secondary rounded-lg flex items-center gap-2"
+              >
+                <Download className="w-4 h-4" />
+                Resume
+              </button>
             </div>
           </div>
         )}
