@@ -30,8 +30,6 @@ const Contact = () => {
     }
   ];
 
-  const hobbies = ["Playing Games", "Watching Movies"];
-  const languages = ["Telugu", "Tamil", "English", "Kannada"];
 
   return (
     <section id="contact" className="py-20 px-4 bg-secondary/30">
@@ -70,37 +68,6 @@ const Contact = () => {
                 </a>
               </Card>
             ))}
-          </div>
-          
-          {/* Additional Info */}
-          <div className="grid md:grid-cols-2 gap-6">
-            <Card className="p-6 border-border/50 animate-fade-in">
-              <h3 className="font-semibold mb-3 text-primary">Languages</h3>
-              <div className="flex flex-wrap gap-2">
-                {languages.map((lang, index) => (
-                  <span 
-                    key={index}
-                    className="px-3 py-1 bg-secondary rounded-full text-sm"
-                  >
-                    {lang}
-                  </span>
-                ))}
-              </div>
-            </Card>
-            
-            <Card className="p-6 border-border/50 animate-fade-in">
-              <h3 className="font-semibold mb-3 text-primary">Interests</h3>
-              <div className="flex flex-wrap gap-2">
-                {hobbies.map((hobby, index) => (
-                  <span 
-                    key={index}
-                    className="px-3 py-1 bg-secondary rounded-full text-sm"
-                  >
-                    {hobby}
-                  </span>
-                ))}
-              </div>
-            </Card>
           </div>
         </div>
       </div>

@@ -17,18 +17,6 @@ const Projects = () => {
       ],
       github: "https://github.com/kesav-k/SmartSpec.git",
       impact: "Enhances software testing efficiency with accurate, context-aware test cases"
-    },
-    {
-      title: "HTML/CSS Portfolio",
-      description: "A professional portfolio website showcasing web development skills and design aesthetics.",
-      technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
-      features: [
-        "Modern and responsive design",
-        "Clean and semantic HTML structure",
-        "Custom CSS animations",
-        "Cross-browser compatibility"
-      ],
-      github: "https://github.com/kesav-k"
     }
   ];
 

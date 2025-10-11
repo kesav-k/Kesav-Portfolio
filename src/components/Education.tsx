@@ -33,13 +33,6 @@ const Education = () => {
     { name: "Artificial Intelligence", provider: "Professional Certification" }
   ];
 
-  const achievements = [
-    "Completed HTML/CSS (30 days intensive course)",
-    "Completed JavaScript (45 days intensive course)",
-    "Completed CSS & Bootstrap (5 days workshop)",
-    "Attended Workshop on Artificial Intelligence",
-    "Participated in Symposium at PSV College, Bargur"
-  ];
 
   return (
     <section id="education" className="py-20 px-4">
@@ -115,19 +108,6 @@ const Education = () => {
             ))}
           </div>
         </div>
-        
-        {/* Achievements */}
-        <Card className="p-6 md:p-8 border-border/50 animate-fade-in">
-          <h3 className="text-xl font-semibold mb-4">Achievements & Extra-Curriculars</h3>
-          <ul className="space-y-2">
-            {achievements.map((achievement, index) => (
-              <li key={index} className="flex items-start text-muted-foreground">
-                <span className="text-accent mr-3 text-xl">✓</span>
-                <span>{achievement}</span>
-              </li>
-            ))}
-          </ul>
-        </Card>
       </div>
     </section>
   );

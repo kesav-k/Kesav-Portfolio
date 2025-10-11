@@ -64,10 +64,11 @@ const About = () => {
               I enjoy building responsive and user-friendly web applications. Recently, I've been diving deep into 
               AI technologies, working on projects that combine machine learning with practical applications.
             </p>
-            <p className="text-muted-foreground leading-relaxed">
-              I'm multilingual (Telugu, Tamil, English, and Kannada) and bring strong soft skills including 
-              teamwork, adaptability, and time management to every project I undertake.
-            </p>
+            <div className="mt-6 p-4 bg-primary/5 rounded-lg border border-primary/10">
+              <p className="text-muted-foreground">
+                <span className="font-semibold text-primary">Area of Interest:</span> MERN Stack Developer
+              </p>
+            </div>
           </div>
         </Card>
       </div>
