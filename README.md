@@ -1,3 +1,3 @@
-# Welcome to your POrtfolio project
+# Welcome to your Portfolio project
 
 
