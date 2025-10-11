@@ -25,7 +25,7 @@ const Hero = () => {
               Kesavamoorthy K
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 font-light">
-              Frontend Developer & AI Enthusiast
+              MERN Stack Developer
             </p>
             <p className="text-base md:text-lg text-muted-foreground mb-10 max-w-2xl mx-auto lg:mx-0">
               Computer Science Engineering student passionate about building beautiful web applications
