@@ -10,12 +10,12 @@ const Skills = () => {
     },
     {
       title: "Programming",
-      skills: ["C", "Data Structures", "Algorithms"],
+      skills: ["python", "C", "Javascript"],
       gradient: "from-purple-500 to-pink-500"
     },
     {
       title: "AI & Tools",
-      skills: ["AI Chatbots", "Machine Learning", "FAISS", "Transformers"],
+      skills: ["Github", "VScode", "Netlify"],
       gradient: "from-cyan-500 to-blue-500"
     },
     {
