@@ -15,7 +15,7 @@ const Projects = () => {
         "Offline functionality for data security",
         "Defense-grade application standards"
       ],
-      github: "https://github.com/kesav-k/SmartSpec.git",
+      github: "https://github.com/kesav-k/SmartSpec-AI.git",
       impact: "Enhances software testing efficiency with accurate, context-aware test cases"
     }
   ];
